@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <tabs>
+    <tab text="Main">
+      <row weight="2">
+        <button icon="camera" ontap="screenshot" color="#black" />
+      </row>
+      <row weight="3">
+        <button text="POWER UP" ontap="powerup" color="#F36C3D" />
+      </row>
+      <row weight="1">
+        <button text="" ontap="none" color="#black" />
+      </row>
+      <row weight="2">
+        <button text="Front" ontap="camfront" color="#1192CC" />
+        <button text="Rear" ontap="camrear" color="#1192CC" />
+	  </row>
+      <row weight="2">
+        <button text="Drone L" ontap="droneflyoverl" color="#1192CC" />
+        <button text="Drone R" ontap="droneflyover2" color="#1192CC" />
+      </row>
+      <row weight="3">
+        <button text="Rear 2.5s" ontap="camrear2s" color="#1192CC" weight="2" />
+		<button text="Farther back" ontap="backview" color="#1192CC" weight="2" />
+      </row>
+    </tab>
+    <tab text="Garage 1">
+	  <row>
+        <button text="Pairing" ontap="pairing" />
+      </row>
+	  <row>
+        <button text="Climb+lightweight" ontap="bike1" />
+        <button text="Climb" ontap="bike3" />
+      </row>
+      <row>
+        <button text="Gravel" ontap="bike5" />
+        <button text="Tron" ontap="bike6" />
+      </row>
+    </tab>
+	<tab text="Garage 2">
+	  <row>
+        <button text="Pairing" ontap="pairing" />
+      </row>
+      <row>
+        <button text="Speed+disc" ontap="bike2" />
+        <button text="Speed" ontap="bike4" />
+      </row>
+      <row>
+        <button text="Gravel" ontap="bike5" />
+        <button text="Tron" ontap="bike6" />
+      </row>
+      <row>
+        <button text="TT+disc" ontap="bike7" />
+      </row>
+    </tab>
+	
+	<tab text="Closet 1">
+	  <row>
+        <button text="Pink MIRT" ontap="pmirt" color="#FFC0CB" />
+      </row>
+      <row>
+        <button text="White DIRT" ontap="wdirt" color="#000000" />
+        <button text="Black DIRT" ontap="bdirt" color="#000000" />
+      </row>
+      <row>
+        <button text="Rainbow" ontap="rbow" color="#800080" />
+        <button text="TBD" ontap="nada" />
+      </row>
+      <row>
+        <button text="TBD" ontap="nada" />
+      </row>
+    </tab>
+  </tabs>
+
+</layout>

@@ -7,6 +7,7 @@
       </row>
       <row weight="3">
         <button text="POWER UP" ontap="powerup" color="#F36C3D" />
+		<button text="Elbow Flick" ontap="elbowflick" color="#F36C3D" />
       </row>
       <row weight="1">
         <button text="" ontap="none" color="#black" />
@@ -24,7 +25,7 @@
 		<button text="Farther back" ontap="backview" color="#1192CC" weight="2" />
       </row>
     </tab>
-    <tab text="Garage 1">
+    <tab text="Climbing Garage">
 	  <row>
         <button text="Pairing" ontap="pairing" />
       </row>
@@ -37,7 +38,7 @@
         <button text="Tron" ontap="bike6" />
       </row>
     </tab>
-	<tab text="Garage 2">
+	<tab text="Aero Garage">
 	  <row>
         <button text="Pairing" ontap="pairing" />
       </row>
@@ -46,7 +47,7 @@
         <button text="Speed" ontap="bike4" />
       </row>
       <row>
-        <button text="Gravel" ontap="bike5" />
+        <button text="All Around + Disc" ontap="bike8" />
         <button text="Tron" ontap="bike6" />
       </row>
       <row>
@@ -54,7 +55,7 @@
       </row>
     </tab>
 	
-	<tab text="Closet 1">
+	<tab text="Closet">
 	  <row>
         <button text="Pink MIRT" ontap="pmirt" color="#FFC0CB" />
       </row>
@@ -64,7 +65,7 @@
       </row>
       <row>
         <button text="Rainbow" ontap="rbow" color="#800080" />
-        <button text="TBD" ontap="nada" />
+        <button text="Flowers" ontap="flowers" color="#ba55d3"/>
       </row>
       <row>
         <button text="TBD" ontap="nada" />

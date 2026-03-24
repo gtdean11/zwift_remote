@@ -64,10 +64,6 @@ actions.bike7 = function ()
 	kb.stroke("win", "7");
 end
 
-actions.bike8 = function ()
-	kb.stroke("ctrl","shift","y");
-end
-
 actions.pairing = function ()
 	kb.stroke("a");
 end

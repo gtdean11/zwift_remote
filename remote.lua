@@ -12,6 +12,14 @@ actions.elbowflick = function ()
 	kb.stroke("f1");
 end
 
+actions.wavehand = function ()
+	kb.stroke("f2");
+end
+
+actions.grouprideon = function ()
+	kb.stroke("f3");
+end
+
 actions.camfront = function ()
 	kb.stroke("1");
 end

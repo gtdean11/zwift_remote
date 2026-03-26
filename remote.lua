@@ -72,6 +72,10 @@ actions.bike7 = function ()
 	kb.stroke("win", "7");
 end
 
+actions.bike8 = function ()
+	kb.stroke("ctrl","shift","y");
+end
+
 actions.pairing = function ()
 	kb.stroke("a");
 end
@@ -97,5 +101,5 @@ actions.rbow = function ()
 end
 
 actions.flowers = function ()
-	kb.stroke("ctrl","shift","5p");
+	kb.stroke("ctrl","shift","5");
 end
